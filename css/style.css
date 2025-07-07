@@ -1,0 +1,81 @@
+*{
+    font-family: "Roboto", sans-serif;
+
+    
+}
+
+:root{
+    --color-bg-main:#FBFBFB;
+    --color-bg-light:#EFF4F7;
+    --color-icon:#444F60;
+    --color-text-muted:#66676B;
+    --color-accent:#4FC1EA;
+    --color-primary:#F39200;
+    
+    --bulma-primary-h: 36deg;
+    --bulma-primary-l: 48%;
+    --bulma-link-h: 216deg;
+    --bulma-link-s: 17%;
+    --bulma-link-l: 32%;
+
+    --bulma-family-primary: "Roboto", sans-serif;
+    --bulma-family-secondary: "Roboto", sans-serif;
+    --bulma-family-code: "Roboto", sans-serif;
+
+    --bulma-title-color:hsl(221deg 5.99% 41.93%);
+}
+
+
+
+body{
+    background-color: var(--color-bg-main);
+    
+}
+/* h1, h2, h3, h4, h5, h6{
+    color:black;
+} */
+.card-content img{
+    width: 70px;
+ }
+ .card{
+   border: .5px solid var(--color-text-muted);
+ }
+ .feature1 img{
+    width: 400px;
+ }
+ .circle{
+    border-radius: 50%;
+    border: 1px solid rgb(105, 105, 105);
+    width: 75px;
+    height: 75px;
+ }
+ .card-quo{
+    width: 300px;
+    /* height: 350px; */
+    margin: 120px 0;
+    border-radius: 10px;
+
+    background-color: var(--color-bg-light);
+    box-shadow: 0px 0px 2px 1px #b6b3b3;
+ }
+ .card-quo img{
+    width: 50px;
+ }
+ .card-start{
+    width: 370px;
+    /* height: 300px; */
+    border-radius: 5px;
+
+    background-color: var(--color-bg-main);
+    box-shadow: 0px 0px 12px 0px #d4d4d4;
+ }
+ .card-start img{
+    width: 150px;
+ }
+ .card-start p span{
+    vertical-align:super;
+ }
+ footer svg{
+    width: 150px;
+    
+ }
