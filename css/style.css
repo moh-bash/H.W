@@ -31,6 +31,13 @@ body{
     background-color: var(--color-bg-main);
     
 }
+.marks{
+   max-width: 70%;
+}
+.marks img{
+   height: auto;
+   
+}
 /* h1, h2, h3, h4, h5, h6{
     color:black;
 } */
@@ -52,7 +59,7 @@ body{
  .card-quo{
     width: 300px;
     /* height: 350px; */
-    margin: 120px 0;
+    /* margin: 120px 0; */
     border-radius: 10px;
 
     background-color: var(--color-bg-light);
@@ -78,4 +85,23 @@ body{
  footer svg{
     width: 150px;
     
+ }
+ h3::after{
+   content: "";
+   width: 100px;
+   height: 8px;
+   background-color: var(--color-primary);
+   position: absolute;
+   bottom: -15px;
+   right: 50%;
+   translate: 50%;
+   border-radius: 5px;
+ }
+ h3{
+   position: relative;
+   padding: 5px;
+ }
+ .form-c{
+   max-width: 600px;
+   margin: auto;
  }
